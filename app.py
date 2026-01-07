@@ -5,7 +5,7 @@ from streamlit_autorefresh import st_autorefresh
 st.set_page_config(layout="wide")
 
 # Atualiza a página a cada 30 segundos
-count = st_autorefresh(interval=150000, key="framereload")
+count = st_autorefresh(interval=60000, key="framereload")
 
 # Lista de links (Use o link de "Publicar na Web")
 links = [
