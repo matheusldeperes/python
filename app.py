@@ -8,7 +8,6 @@ st.set_page_config(layout="wide")
 count = st_autorefresh(interval=30000, key="framereload")
 
 # Lista de links (Use o link de "Publicar na Web")
-st.cache_data(ttl=60)
 links = [
     "https://app.powerbi.com/view?r=eyJrIjoiMmUxMjMzMmQtM2FhMC00NmMyLThkYzQtM2I2OTNlY2M4MjA1IiwidCI6IjgwNGM1M2Y3LTIwNWEtNDI4NS1hNjhmLWVjOTU4NzllOTYzYiJ9",
     "https://app.powerbi.com/view?r=eyJrIjoiMmUxMjMzMmQtM2FhMC00NmMyLThkYzQtM2I2OTNlY2M4MjA1IiwidCI6IjgwNGM1M2Y3LTIwNWEtNDI4NS1hNjhmLWVjOTU4NzllOTYzYiJ9",
