@@ -4,8 +4,8 @@ from streamlit_autorefresh import st_autorefresh
 # Configuração da página para ocupar a tela toda
 st.set_page_config(layout="wide")
 
-# Atualiza a página a cada 10 minutos
-count = st_autorefresh(interval=600000, key="framereload")
+# Atualiza a página a cada 30 segundos
+count = st_autorefresh(interval=30000, key="framereload")
 
 # Lista de links (Use o link de "Publicar na Web")
 links = [
@@ -19,4 +19,4 @@ links = [
 indice = count % len(links)
 
 # Exibindo o dashboard
-st.components.v1.iframe(links[indice], height=800, scrolling=False)
+st.components.v1.iframe(links[indice], height=500, scrolling=False)
