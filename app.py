@@ -19,4 +19,4 @@ links = [
 indice = count % len(links)
 
 # Exibindo o dashboard
-st.components.v1.iframe(links[indice], height=700, scrolling=False)
+st.components.v1.iframe(links[indice], height=1000, scrolling=False)
