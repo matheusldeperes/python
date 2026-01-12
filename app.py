@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_autorefresh import st_autorefresh
 
 # Configuração da página para ocupar a tela toda
-st.set_page_config(layout="wide")
+st.set_page_config(layout="centered")
 
 # Atualiza a página a cada 10 minutos
 count = st_autorefresh(interval=600000, key="framereload")
