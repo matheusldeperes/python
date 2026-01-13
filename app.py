@@ -4,8 +4,8 @@ from streamlit_autorefresh import st_autorefresh
 # Configuração da página para ocupar a tela toda
 st.set_page_config(layout="centered")
 
-# Atualiza a página a cada 10 minutos
-count = st_autorefresh(interval=600000, key="framereload")
+# Atualiza a página a cada 5 minutos
+count = st_autorefresh(interval=90000, key="framereload")
 
 # Lista de links (Use o link de "Publicar na Web")
 links = [
