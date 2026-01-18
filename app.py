@@ -10,6 +10,7 @@ count = st_autorefresh(interval=120000, key="framereload")
 # Lista de links (Use o link de "Publicar na Web")
 links = [
     "https://app.powerbi.com/view?r=eyJrIjoiOGE3OTM3OTQtM2M4My00YjNkLWJiODgtOGNlZDc4YzliODEzIiwidCI6IjgwNGM1M2Y3LTIwNWEtNDI4NS1hNjhmLWVjOTU4NzllOTYzYiJ9&pageName=82830f79e3b7d77cca7a",
+    "https://app.powerbi.com/view?r=eyJrIjoiNmQ4YmYwYTktZTJkZC00Mzg1LTlhM2YtNWRkNGRlMmM1ZTA1IiwidCI6IjgwNGM1M2Y3LTIwNWEtNDI4NS1hNjhmLWVjOTU4NzllOTYzYiJ9",
     "https://app.powerbi.com/view?r=eyJrIjoiOGE3OTM3OTQtM2M4My00YjNkLWJiODgtOGNlZDc4YzliODEzIiwidCI6IjgwNGM1M2Y3LTIwNWEtNDI4NS1hNjhmLWVjOTU4NzllOTYzYiJ9",
 
 ]
